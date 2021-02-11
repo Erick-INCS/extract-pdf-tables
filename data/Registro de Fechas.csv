@@ -1,0 +1,10 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,,
+1 Tipo de Registro,Alfanumérico,3,506,,OBL
+2 Tipo de Fecha,Alfanumérico,1,1 = Entrada,,
+,,,2 = Pago,,
+,,,3 = Extracción,,
+,,,,,OBL
+,,,5 = Presentación,,
+,,,6 = Imp. EUA/CAN,,
+,,,7 = Pago Original,,
+3 Fecha,Alfanumérico,8,aaaammdd,,OBL

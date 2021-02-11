@@ -1,35 +1,45 @@
 import tabula
 import pandas as pd
 import re
+from sys import argv
 
-data = tabula.read_pdf('431371849-Facturacion-Electronica-Darwin1-1.pdf',multiple_tables=True, pages='all')
+fileName = ''
+for i, arg in enumerate(argv):
+    if '.pdf' in arg:
+        fileName = arg
+        break
 
-data = list(filter(lambda e: e.shape[0] > 1 and e.shape[1] > 3, data))
-names = [e.columns[0] for e in data]
-data = list(map(lambda e: e.rename(columns={vl:'C' + str(i) for i,vl in enumerate(e.columns)}), data))
+if fileName:
+    data = tabula.read_pdf(fileName,multiple_tables=True, pages=6)
 
-rg = re.compile('^[^\d]+')
-endData = []
-endNames= []
+    data = list(filter(lambda e: e.shape[0] > 1 and e.shape[1] > 3, data))
+    names = [e.columns[0] for e in data]
+    data = list(map(lambda e: e.rename(columns={vl:'C' + str(i) for i,vl in enumerate(e.columns)}), data))
 
-for i, nm in enumerate(names):
-    if rg.match(nm):
-        endData.append(data[i])
-        endNames.append(nm)
-    else:
-        endData[-1] = pd.concat([endData[-1], data[i]])
+    rg = re.compile('^[^\d]+')
+    endData = []
+    endNames= []
 
-for i, dt in enumerate(endData):
-    vals = dt.values
-    nms = vals[0]
-    df = {}
-    
-    for ii, nm in enumerate(nms):
-        df[nm] = vals[1:, ii]
-    
-        endData[i] = pd.DataFrame(df)
+    for i, nm in enumerate(names):
+        if rg.match(nm):
+            endData.append(data[i])
+            endNames.append(nm)
+        else:
+            endData[-1] = pd.concat([endData[-1], data[i]])
 
-print(len(data), 'tables')
+    for i, dt in enumerate(endData):
+        vals = dt.values
+        nms = vals[0]
+        df = {}
+        
+        for ii, nm in enumerate(nms):
+            df[nm] = vals[1:, ii]
+        
+            endData[i] = pd.DataFrame(df)
 
-for i, nm in enumerate(endNames):
-    endData[i].to_csv(f"{nm}.csv", index=False)
+    print(len(data), 'tables')
+
+    for i, nm in enumerate(endNames):
+        endData[i].to_csv(f"data/{nm}.csv", index=False)
+else:
+    print('Es necesario especificar un archivo PDF.')

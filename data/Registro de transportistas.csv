@@ -1,0 +1,6 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,,
+1 Tipo de Registro,Alfanumérico,3,502,,OBL
+2 Código Del transportista,Alfanumérico,6,,,OBL
+3 ID Vehículo,Alfanumérico,17,,,OBL
+4 País,Alfanumérico,3,"MEX,USA,CAN, etc...",,OBL
+5 Equipo Ferroviario (Partes II y Consolid.),Alfanumérico,13,"Solo transporte 2, 3 ó 6",,OPC

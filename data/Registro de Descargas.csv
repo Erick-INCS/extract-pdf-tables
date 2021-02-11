@@ -1,0 +1,11 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,,
+1 Tipo de Registro,Alfanumérico,3,512,,OBL
+2 Patente Original,Alfanumérico,4,,,OPC
+3 Pedimento Original,Alfanumérico,7,,,OPC
+4 Clave Original,Alfanumérico,3,,,OPC
+5 Fecha Original,Alfanumérico,8,aaaammdd,,OPC
+6 Fracción Original,Numérico,8,,,OPC
+7 Cantidad,Numérico,15,###########.###,,OPC
+8 Unidad medida original,Numérico,2,##,,OPC
+9 Aduana Original,Numérico,3,###,,OPC
+10 Año de validación,Numérico,4,####,,OPC

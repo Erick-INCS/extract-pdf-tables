@@ -1,0 +1,41 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,,
+1 Tipo de Registro,Alfanumérico,3,505,,OBL
+2 Numero de Factura,Alfanumérico,40,,,OBL
+3 Fecha de facturación,Alfanumérico,8,aaaammdd,,OBL
+4 Termino de facturación,Alfanumérico,3,"FOB,DAF,DDP, etc...",,OBL
+5 Moneda de facturación,Alfanumérico,3,"USD,MXP,CAD, etc...",,OBL
+6 Valor en Moneda extranjera,Numérico,14,###########.##,,OBL
+7 Valor Dólares,Numérico,14,###########.##,,OBL
+8 ** Código del proveedor,Alfanumérico,10,,,OBL
+9 Reservado,,,,,
+10 País Moneda,Alfanumérico,3,"MEX, USA, EMU, Etc.",,OPC
+11 Uso Futuro,,,,,
+12 Uso Futuro,,,,,
+13 Uso Futuro,,,,,
+14 Uso Futuro,,,,,
+15 País Moneda Fletes,Alfanumérico,3,Uso Exclusivo de Tráfico,,OPC
+16 País Moneda Seguros,Alfanumérico,3,Uso Exclusivo de Tráfico,,OPC
+17 País Moneda Embalajes,Alfanumérico,3,Uso Exclusivo de Tráfico,,OPC
+18 País Moneda Otros Incrementables,Alfanumérico,3,Uso Exclusivo de Tráfico,,OPC
+19 Observaciones a nivel factura,,,Uso Exclusivo de Tráfico,,OBL
+20 Peso Bruto,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+21 Peso Neto,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+22 Bultos,Entero,,Uso Exclusivo de Tráfico,,OBL
+23 Fletes,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+24 Seguros,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+25 Embalajes,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+26 Otros,Numérico,"14,2",Uso Exclusivo de Tráfico,,OBL
+27 Origen de Mercancía,Alfanumérico,3,Uso Exclusivo de Tráfico,,OBL
+28 Descargo de Mercancía,Alfanumérico,3,Uso Exclusivo de Tráfico,,OBL
+29 Destino de Mercancía,Alfanumérico,3,Uso Exclusivo de Tráfico,,OBL
+30 Código del tipo de bultos,Alfanumérico,6,Uso Exclusivo de Tráfico,,OBL
+"31 Tipo de Operación (Retrabajo, Mat.",Alfanumérico,,Uso Exclusivo de Tráfico,,
+,,,,,OBL
+"Prima, Equipo)",,,,,
+,,,(aaaammdd) Uso exclusivo,,
+32 Fecha de Expedición,Alfanumérico,8,,,OPC
+,,,COVE,,
+33 Subdivisión,Alfanumérico,1,Uso exclusivo COVE,,OPC
+34 Certificado Origen,Alfanumérico,1,Uso exclusivo COVE,,OPC
+35 Observaciones,Alfanumérico,300,Uso exclusivo COVE,,OPC
+36 E-Document,Alfanumérico,13,Uso exclusivo COVE,,OPC

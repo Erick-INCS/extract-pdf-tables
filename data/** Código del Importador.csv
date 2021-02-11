@@ -1,0 +1,51 @@
+Campos,Descripción del dato,Tipo de dato,Longitud,Formato,OPC/OBL
+1,Tipo de Registro,Alfanumérico,3,CCC,OBL
+2,Número de Cliente,Alfanumérico,10,,OBL
+3,Nombre,Alfanumérico,120,Nombre Individual ó RazónSocial,OBL
+4,Apellido Paterno,Alfanumérico,30,Solo en caso persona física,OBL
+5,Apellido Materno,Alfanumérico,30,Solo en caso persona física,OBL
+6,Calle,Alfanumérico,80,,OBL
+7,Número Interior,Alfanumérico,10,,OBL
+8,Número Exterior,Alfanumérico,10,,OBL
+9,Ciudad,Alfanumérico,80,,OBL
+10,C.P.,Alfanumérico,10,,OBL
+11,Estado,Alfanumérico,3,Clave Estado Sagar,OBL
+12,País,Alfanumérico,3,,OBL
+13,Entidad,Alfanumérico,3,,OBL
+14,RFC,Alfanumérico,13,,OBL
+15,Curp,Alfanumérico,18,,OBL
+16,Tipo,Alfanumérico,1,,OPC
+17,Proveedor,Alfanumérico,6,,OPC
+18,Zona Default,Alfanumérico,1,,OPC
+20,Transporte Salida,Alfanumérico,1,OPC,
+21,Transporte Territorio,Alfanumérico,1,OPC,
+22,Password,Alfanumérico,8,OPC,
+23,Colonia,Alfanumérico,25,OPC,
+24,Municipio,Alfanumérico,5,OPC,
+25,Avisar TLC,Alfanumérico,1,OPC,
+26,Aplicar TLC,Alfanumérico,1,OPC,
+27,Desplegar Precios Estimados,Alfanumérico,1,OPC,
+28,Desplegar IEPS,Alfanumérico,1,OPC,
+29,Aplicar IEPS,Alfanumérico,1,OPC,
+30,Preguntar Azúcar,Alfanumérico,1,OPC,
+31,Revisar SECOFI,Alfanumérico,1,OPC,
+32,Desplegar Avisos Automáticos,Alfanumérico,1,OPC,
+33,Desplegar Notas Extras,Alfanumérico,1,OPC,
+34,Desplegar Cuotas Compensatorias,Alfanumérico,1,OPC,
+35,Desplegar Descripciones Especificas,Alfanumérico,1,OPC,
+36,Desplegar Noms,Alfanumérico,1,OPC,
+37,Aplicar Noms,Alfanumérico,1,OPC,
+38,Eximir Noms por,Alfanumérico,1,OPC,
+39,Desplegar Padrón Sectorial,Alfanumérico,1,OPC,
+40,Desplegar Aduanas Autorizadas,Alfanumérico,1,OPC,
+41,Desplegar Permisos,Alfanumérico,1,OPC,
+42,Desplegar Etiquetas,Alfanumérico,1,OPC,
+43,Aplicar Etiquetado,Alfanumérico,1,OPC,
+44,Eximir Etiquetado,Alfanumérico,1,OPC,
+45,Verificar Peso,Alfanumérico,1,OPC,
+46,Verificar Valor Comercial,Alfanumérico,1,OPC,
+47,Uso de la Mercancía,Alfanumérico,1,OPC,
+48,Estado de la Mercancía,Alfanumérico,1,OPC,
+49,Método de Valoración,Alfanumérico,1,OPC,
+50,Vinculación,Alfanumérico,1,OPC,
+51,Campo Extra,Alfanumérico,1,OPC,

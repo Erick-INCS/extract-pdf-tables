@@ -1,0 +1,8 @@
+Campo,Descripción del dato,Tipo de dato,Longitud,Formato,
+1,Tipo de Registro,Alfanumérico,3,554,OBL
+2,Tipo de Caso,Alfanumérico,2,"PO, DT, EN, GA, EX, etc.",OBL
+3,1er. Complemento del Caso**,Alfanumérico,20,,OPC
+4,2do. Complemento del Caso **,Alfanumérico,50,,OPC
+5,3er. Complemento del Caso**,Alfanumérico,40,,OPC
+6,Valor Comercial**,Numérico,14,###########.##Exclusivo caso PO,OPC
+7,Código del Proveedor**,Alfanumérico,10,Exclusivo caso PO,OPC

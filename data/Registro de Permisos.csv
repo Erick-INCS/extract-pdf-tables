@@ -1,0 +1,7 @@
+Campo,Descripción del dato,Tipo de dato,Longitud,Formato,
+1,Tipo de Registro,Alfanumérico,3,553,OBL
+2,Clave del permiso,Alfanumérico,2,"C1,S1,M6,S4,M7,NM etc...",OBL
+3,Numero del permiso,Alfanumérico,30,,OPC
+4,Firma de Descargo,Alfanumérico,17,,OPC
+5,Valor Comercial Dólares,Numérico,14,############.##,OPC
+6,Cantidad Tarifa,Numérico,19,#############.#####,OPC

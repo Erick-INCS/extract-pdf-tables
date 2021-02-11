@@ -1,0 +1,27 @@
+Campo,Descripción del dato,Tipo de dato,Longitud,Formato,OPC/OBL
+1,Tipo de Registro,Alfanumérico,3,501,OBL
+2,Tipo de operación,Alfanumérico,1,1=Imp   2=Exp,OBL
+3,Clave de Documento,Alfanumérico,2,"A1, H2, etc...",OBL
+4,Numero de pedimento,Alfanumérico,7,,OPC
+5,** Código del Importador,Alfanumérico,10,,OBL
+6,Fletes,Numérico,12,############,OPC
+7,Seguros,Numérico,12,############,OPC
+8,Embalajes,Numérico,12,############,OPC
+9,Otros Incrementables,Numérico,12,############,OPC
+10,Otros Deducibles,Numérico,12,############,OPC
+11,Peso Bruto,Numérico,14,###########.###,OBL
+12,Bultos,Numérico,12,############,OBL
+13,Transporte de entrada/salida,Alfanumérico,1,"1,2,3,4,5,6,7,8,99",OBL
+14,Transporte arribo,Alfanumérico,1,"1,2,3,4,5,6,7,8,99",OPC
+15,Transporte de salida de aduana,Alfanumérico,1,"1,2,3,4,5,6,7,8,99",OPC
+16,Destino o Zona,Alfanumérico,2,"1,2,3,4,5,6,7,8,9,10",OBL
+17,Referencia,Alfanumérico,20,,OPC
+18,Pesos,Numérico,1,1,OPC
+19,Tipo de Archivo,Alfanumérico,1,"P=Pedimento, E=Embarque,C=Consolidado",OPC
+20,País Moneda,Alfanumérico,3,"MEX, USA, EMU, etc...",OPC
+21,País Moneda Fletes,Alfanumérico,3,"MEX, USA, EMU, etc...",OPC
+22,País Moneda Seguros,Alfanumérico,3,"MEX, USA, EMU, etc...",OPC
+23,País Moneda Embalajes,Alfanumérico,3,"MEX, USA, EMU, etc...",OPC
+24,País Moneda Otros Incrementables,Alfanumérico,3,"MEX, USA, EMU, etc...",OPC
+25,"Marcas, Números y Bultos",Alfanumérico,35,,OPC
+26,Grupo de Factura,Alfanumérico,6,Uso Exclusivo de Tráfico,OPC

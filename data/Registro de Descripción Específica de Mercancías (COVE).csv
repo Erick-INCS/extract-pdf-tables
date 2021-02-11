@@ -1,0 +1,6 @@
+Campo,Descripción del dato,Tipo de dato,Longitud,Formato,
+1,Tipo de Registro,Alfanumérico,3,559,OBL
+2,Marca,Alfanumérico,100,,OPC
+3,Modelo,Alfanumérico,50,,OPC
+4,Sub-Modelo,Alfanumérico,50,,OPC
+5,Número de Serie,Alfanumérico,100,,OPC

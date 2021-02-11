@@ -1,0 +1,27 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,,
+1 Tipo de Registro,Alfanumérico,3,,551.0,OBL
+2 Fracción,Alfanumérico,8,,,OPC
+23,Uso de la Mercancía,Alfanumérico,1,"A = Animales, exceptoacuáticos.H = HumanosI = IndustrialO = OtrosV = VeterinarioT = Uso exclusivo enVehículos AutomóvilesS= Silvestre",OPC
+24,Estado de la Mercancía,Alfanumérico,1,N = NuevosU = UsadosR = Reconstruidos,OPC
+25,Moneda,Alfanumérico,3,"USD,MXP,CAD, etc",OPC
+26,Tasa Arancel IGI,Numérico,2,,OPC
+27,Correlación Aladi,Alfanumérico,8,Fracción Correlacionada,OPC
+28,Valor Mcías. No Originarias,Numérico,12,,OPC
+29,Monto IGI,Numérico,12,,OPC
+30,Fp 303,Numérico,2,,OPC
+31,Kilogramos de Azúcar,Numérico,12,#########.##,OPC
+32,Reservado,,,,
+33,País Moneda,Alfanumérico,3,"MEX,USA,CAN, etc ...",OPC
+34,FP IVA,Numérico,2,"1,2,3,4,5,6,7,8,9,etc...",OPC
+35,FP IGI\IGE,Numérico,2,"1,2,3,4,5,6,7,8,9,etc...",OPC
+36,Precio Unitario,Numérico,"12,8",Uso Exclusivo Tráfico,OBL
+37,Valor en Aduana,Numérico,12,Uso Exclusivo Tráfico,OBL
+38,Valor en Dólares,Numérico,"14,2",Uso Exclusivo Tráfico,OBL
+40,Peso Neto Unitario en Kilos,Numérico,"12,8",Uso Exclusivo Tráfico,OBL
+41,Peso Bruto Unitario en Kilos,Numérico,"12,8",Uso Exclusivo Tráfico,OBL
+42,Orden de Compra,Alfanumérico,20,Uso Exclusivo Tráfico,OBL
+43,Número de Factura,Alfanumérico,15,Uso Exclusivo Tráfico,OBL
+44,Guía Master,Alfanumérico,20,Uso Exclusivo Tráfico,OBL
+45,Guía House,Alfanumérico,20,Uso Exclusivo Tráfico,OBL
+46,Rendimiento en litros (IEPS),Numérico,15,###########.###,OBL
+47,Código NICO,Alfanumérico,2,##,OPC

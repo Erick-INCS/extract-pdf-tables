@@ -1,0 +1,6 @@
+Campo Descripción del dato,,Tipo de dato,Longitud,Formato
+1 Tipo de Registro,OBL,Alfanumérico,3,503
+2 Guia o Manifiesto,OBL,Alfanumérico,20,
+3 Identificador de guia (M o D),OBL,Alfanumérico,1,M=Maestra D=Domestica
+2,,Alfanumérico,12,
+3,,Alfanumérico,2,"1,2, ....19"

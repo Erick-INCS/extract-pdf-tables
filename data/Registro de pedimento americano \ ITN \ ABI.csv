@@ -1,0 +1,9 @@
+Campo Descripción del dato,Tipo de dato,Longitud,Formato,
+1 Tipo de Registro,Alfanumérico,3,,OBL
+Tipo de Documento - Clase -,,,,
+2,Numérico,2,,OBL
+(pedimentos y remesas),,,,
+3 Número,Alfanumérico,30,,OBL
+Tipo de Documento  - QR - (DODA \,,,,
+4,Numérico,2,,OBL
+PITA),,,,

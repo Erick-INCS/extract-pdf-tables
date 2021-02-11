@@ -1,0 +1,5 @@
+Campo,Descripción del dato,Tipo de Dato,Longitud,Formato,
+1,Tipo de Registro,Alfanumérico,3,552,OBL
+2,Fracción,Alfanumérico,8,,OPC
+3,VIN / Numero de Serie,Alfanumérico,25,,OPC
+4,Kilometraje del Vehiculo,Numérico,,,OPC
